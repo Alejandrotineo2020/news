@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex.devCode | Pro News Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0a0a0a; color: #e0e0e0; font-family: 'Inter', sans-serif; }
+        .navbar { border-bottom: 2px solid #ffc107; background: #000 !important; }
+        .card { background: #151515; border: 1px solid #ffc107; border-radius: 0; transition: 0.3s; height: 100%; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(255,193,7,0.3); }
+        .card-img-top { height: 200px; object-fit: cover; }
+        .text-warning { color: #ffc107 !important; }
+        .btn-warning { background: #ffc107; color: #000; font-weight: bold; border-radius: 0; border: none; }
+        .btn-warning:hover { background: #e5ac00; color: #000; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark p-3 shadow">
+    <div class="container d-flex justify-content-between">
+        <span class="navbar-brand fw-bold">ALEX.<span class="text-warning">DEVCODE</span></span>
+        <button id="btnDownload" class="btn btn-warning">DESCARGAR NOTICIAS</button>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <div id="loader" class="text-center">
+        <div class="spinner-border text-warning"></div>
+        <p class="text-warning mt-2">Conectando con la API de noticias...</p>
+    </div>
+    <div id="newsGrid" class="row g-4"></div>
+</div>
+
+<script>
+    // Configuración de la API (Asegúrate de que tu Key de GNews sea válida)
+    const API_KEY = "6147b32241e39c35067a913b48c61bc6"; 
+    const URL = `https://gnews.io/api/v4/top-headlines?category=technology&lang=es&country=any&max=10&apikey=${API_KEY}`;
+
+    let newsData = [];
+
+    // Cargar noticias desde la API
+    async function loadNews() {
+        try {
+            const response = await fetch(URL);
+            const data = await response.json();
+
+            if (data.errors) {
+                throw new Error(data.errors[0]);
+            }
+
+            newsData = data.articles;
+            render(newsData);
+        } catch (err) {
+            document.getElementById('loader').innerHTML = `
+                <div class="alert alert-danger bg-dark text-white border-warning">
+                    <b>ERROR:</b> ${err.message}<br>
+                    <small>Verifica tu API Key en GNews.io</small>
+                </div>`;
+        }
+    }
+
+    // Mostrar noticias en tarjetas Bootstrap
+    function render(articles) {
+        const loader = document.getElementById('loader');
+        if (loader) loader.style.display = 'none';
+        
+        const grid = document.getElementById('newsGrid');
+        grid.innerHTML = articles.map(art => `
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="${art.image || 'https://via.placeholder.com/400x200/111/ffc107?text=Alex.devCode'}" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">${art.title}</h5>
+                        <p class="card-text small text-secondary">
+                            ${art.description ? art.description.slice(0, 120) + '...' : 'Análisis técnico en curso.'}
+                        </p>
+                    </div>
+                    <div class="card-footer border-0 bg-transparent pb-3">
+                        <a href="${art.url}" target="_blank" class="btn btn-outline-warning btn-sm w-100">LEER MÁS</a>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    // Función de Descarga del archivo .TXT
+    document.getElementById('btnDownload').addEventListener('click', () => {
+        if (newsData.length === 0) {
+            alert("⚠️ Aún no hay noticias cargadas. Espera un momento.");
+            return;
+        }
+
+        let contenidoTxt = "ALEX.DEVCODE - REPORTE TOP 10 TECNOLOGÍA\n";
+        contenidoTxt += "===========================================\n\n";
+
+        newsData.forEach((art, index) => {
+            contenidoTxt += `NOTICIA #${index + 1}: ${art.title.toUpperCase()}\n`;
+            
+            // Párrafo 1: Resumen
+            contenidoTxt += `RESUMEN EJECUTIVO: ${art.description || "Contenido bajo análisis técnico detallado por Alex.devCode."}\n\n`;
+            
+            // Párrafo 2: Fuente y Contexto
+            contenidoTxt += `ANÁLISIS DE FUENTE: Esta información ha sido publicada por ${art.source.name}. `;
+            contenidoTxt += `Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: ${art.url}\n\n`;
+            
+            contenidoTxt += "-------------------------------------------\n\n";
+        });
+
+        // Crear el archivo y forzar descarga
+        const blob = new Blob([contenidoTxt], { type: 'text/plain' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "Noticias_Top10_AlexDevCode.txt";
+        document.body.appendChild(a);
+        a.click();
+        
+        // Limpiar
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+    });
+
+    loadNews();
+</script>
+
+</body>
+</html>

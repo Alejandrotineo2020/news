@@ -1,0 +1,73 @@
+ALEX.DEVCODE - REPORTE TOP 10 TECNOLOGÍA
+===========================================
+
+NOTICIA #1: ALERTAN UNIVERSIDADES CON USO INDISCRIMINADO DE IA
+RESUMEN EJECUTIVO: La tecnología no debe ser satanizada, hay que aprender a convivir con ella y fomentar su empleo ético, usarla en beneficio de la humanidad y no en su perjuicio, afirman expertos
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por El Universal. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.eluniversal.com.mx/nacion/alertan-universidades-con-uso-indiscriminado-de-ia/
+
+-------------------------------------------
+
+NOTICIA #2: REID WISEMAN, COMANDANTE DE ARTEMIS II: "LAS MENTES HUMANAS NO DEBERÍAN PASAR POR LO QUE ACABAMOS DE PASAR"
+RESUMEN EJECUTIVO: El comandante de la misión ha descrito como "límite" una experiencia vivida durante el viaje. Ocurrió mientras la nave Orion sobrevolaba la cara oculta de la Luna
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por El Confidencial. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.elconfidencial.com/tecnologia/ciencia/2026-04-13/reid-wiseman-artemis-2-mentes-humanas-1qrt_4337023/
+
+-------------------------------------------
+
+NOTICIA #3: TRUMP SE PRESENTA COMO JESUCRISTO EN UNA IMAGEN CREADA CON IA DESPUÉS DE CRITICAR AL PAPA POR LA GUERRA DE IRÁN
+RESUMEN EJECUTIVO: Según el dirigente estadounidense, el Papa León XIV «es débil en materia de delincuencia y pésimo en política exterior»
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por ABC. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.abc.es/internacional/trump-presenta-jesuscristo-imagen-creada-ia-sanar-20260413110511-nt.html
+
+-------------------------------------------
+
+NOTICIA #4: LAS OFERTAS ANTI DIGI NO VAN A SER ETERNAS: PUEDEN SUBIR DE PRECIO SIN PREVIO AVISO
+RESUMEN EJECUTIVO: Las ofertas anti Digi que están haciendo las operadoras no son eternas y, en cualquier momento, pueden subir de precio.
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por ADSLZone. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.adslzone.net/noticias/operadores/ofertas-anti-digi-ser-eternas-subir-precio-sin-previo-aviso/
+
+-------------------------------------------
+
+NOTICIA #5: APPLE ACABA DE FULMINAR A SAMSUNG POR LA DERECHA. LE HA BASTADO EL TIRÓN DEL IPHONE 17 PARA ARREBATARLE LA CORONA
+RESUMEN EJECUTIVO: El Q1 siempre ha sido un trimestre ingrato para Apple. Enero, febrero y marzo son los meses en los que el iPhone lleva ya un tiempo en el mercado, la euforia...
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por Applesfera. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.applesfera.com/iphone/apple-acaba-fulminar-a-samsung-derecha-le-ha-bastado-tiron-iphone-17-para-arrebatarle-corona
+
+-------------------------------------------
+
+NOTICIA #6: UNA FAMILIA QUISO VIVIR SOLO CON PANELES SOLARES, AGUA DE POZO Y UN HUERTO. HASTA QUE ITALIA LE QUITÓ A SUS HIJOS
+RESUMEN EJECUTIVO: En lo alto de un bosque de Abruzzo, en Italia, una casa de piedra quedó totalmente en silencio en noviembre del año pasado. Hasta ese momento, aquel lugar era...
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por Xataka. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.xataka.com/energia/familia-quiso-vivir-solo-paneles-solares-agua-pozo-huerto-que-italia-le-quito-a-sus-hijos-1
+
+-------------------------------------------
+
+NOTICIA #7: LA GENERACIÓN Z SE ENFRENTA A UN FUTURO NEURODIVERGENTE. EL CEO DE PALANTIR AFIRMA QUE SÓLO DOS TIPOS DE PERSONAS ALCANZARÁN EL ÉXITO EN LA ERA DE LA IA
+RESUMEN EJECUTIVO: Pese a que las salidas de tono de Alex Karp son tan considerables en número como en el tamaño de las barbaridades, el CEO de Palantir ha dado en el clavo...
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por 3DJuegos. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.3djuegos.com/3djuegos-trivia/noticias/generacion-z-se-enfrenta-a-futuro-neurodivergente-ceo-palantir-afirma-que-solo-dos-tipos-personas-alcanzaran-exito-era-ia
+
+-------------------------------------------
+
+NOTICIA #8: MICRO LED SOBRE CMOS: EL GRAN AVANCE PARA FABRICAR TELEVISORES Y REALIDAD VIRTUAL A GRAN ESCALA
+RESUMEN EJECUTIVO: Con el Micro LED llevamos ya bastante tiempo en la misma. Sobre el papel suena espectacular, y no es para menos, porque promete mucho brillo, mucha eficiencia
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por AVPasión. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.avpasion.com/micro-led-tecnologia-iba-a-llegar-fecha-cifras/
+
+-------------------------------------------
+
+NOTICIA #9: EL GOBIERNO PROFUNDIZA SU RELACIÓN CON ESTADOS UNIDOS Y BUSCA FIRMAR UN ACUERDO DE CIBERSEGURIDAD
+RESUMEN EJECUTIVO: La intención del Ejecutivo es robustecer la capacidad de prevención y respuesta ante ataques informáticos y cerrar parte de las vulnerabilidades que hoy reconocen en distintas áreas de la administración pública.
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por TN. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://tn.com.ar/politica/2026/04/13/el-gobierno-profundiza-su-relacion-con-estados-unidos-y-busca-firmar-un-acuerdo-de-ciberseguridad/
+
+-------------------------------------------
+
+NOTICIA #10: UN HACKEO A BASIC FIT EXPONE LOS DATOS BANCARIOS DE LOS CLIENTES: QUÉ HACER SI VAS A ESE GIMNASIO
+RESUMEN EJECUTIVO: La cadena líder europea de gimnasios low-cost, Basic Fit, ha sufrido un ciberataque que ha expuesto los datos de los clientes en los más ...
+
+ANÁLISIS DE FUENTE: Esta información ha sido publicada por El Economista. Para profundizar en los datos y la infraestructura de esta noticia, acceda al enlace oficial: https://www.eleconomista.es/tecnologia/noticias/13867438/04/26/hackeo-a-basic-fit-expone-los-datos-bancarios-de-los-clientes-que-hacer-si-vas-a-ese-gimnasio.html
+
+-------------------------------------------
+
