@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Sistema de Noticias Alex.devCode v1.0",
+    "description": "Despliegue exitoso en Vercel. Ahora las noticias se cargan dinámicamente desde este archivo JSON en GitHub.",
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800",
+    "url": "https://github.com/Alejandrotineo2020/news",
+    "source": { "name": "Sistema Interno" }
+  }
+]
