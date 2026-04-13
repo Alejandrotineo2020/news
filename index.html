@@ -36,7 +36,23 @@
 <script>
     // Configuración de la API (Asegúrate de que tu Key de GNews sea válida)
     const API_KEY = "6147b32241e39c35067a913b48c61bc6"; 
-    const URL = `https://gnews.io/api/v4/top-headlines?category=technology&lang=es&country=any&max=10&apikey=${API_KEY}`;
+    // Borra la URL de GNews y usa esta
+const URL_GITHUB = "https://raw.githubusercontent.com/Alejandrotineo2020/news/main/noticias.json";
+
+async function loadNews() {
+    try {
+        const response = await fetch(URL_GITHUB + '?t=' + new Date().getTime());
+        if (!response.ok) throw new Error("Archivo no encontrado");
+        
+        newsData = await response.json();
+        render(newsData);
+    } catch (err) {
+        document.getElementById('loader').innerHTML = `
+            <div class="alert alert-danger bg-dark text-white border-warning">
+                <b>ERROR:</b> No se pudo conectar con el repositorio.
+            </div>`;
+    }
+}
 
     let newsData = [];
 
